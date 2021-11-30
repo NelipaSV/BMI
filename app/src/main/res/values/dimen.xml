@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_60">60sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+
+    <dimen name="corner_4">4dp</dimen>
+    <dimen name="stroke_1">1dp</dimen>
+    <dimen name="btn_default_height">40dp</dimen>
+
+    <dimen name="margin_smaller">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_middle">24dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_extra_large">40dp</dimen>
+
+    <dimen name="padding_zero">0dp</dimen>
+    <dimen name="padding_smaller">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_extra_large">40dp</dimen>
+</resources>

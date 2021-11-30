@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  base fonts  -->
+    <style name="font_sans_serif">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!--  base font+color  -->
+    <style name="white_font" parent="font_sans_serif">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="white_0_5_font" parent="font_sans_serif">
+        <item name="android:textColor">@color/white_0_5</item>
+    </style>
+
+    <!--  base text styles  -->
+    <style name="text_60_white" parent="white_font">
+        <item name="android:textSize">@dimen/text_60</item>
+    </style>
+    <style name="text_16_white" parent="white_font">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_white_0_5" parent="white_0_5_font">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_14_white" parent="white_font">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+    <style name="text_12_white" parent="white_font">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+</resources>
