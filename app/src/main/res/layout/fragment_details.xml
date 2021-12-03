@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="io.nelipa.bmi.utils.validation.ValidationField" />
+
+        <variable
+            name="errors"
+            type="io.nelipa.bmi.utils.validation.ErrorFieldsModel" />
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/view_toolbar"
+                layout="@layout/view_top_navigation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_enter_personal_details"
+                style="@style/text_28_main_raleway_400"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_middle"
+                android:layout_marginTop="@dimen/margin_extra_large"
+                android:layout_marginEnd="@dimen/margin_middle"
+                android:gravity="center"
+                android:text="@string/enter_personal_detail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_toolbar" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_name"
+                style="@style/TextInputLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_default"
+                android:layout_marginTop="@dimen/margin_extra_large"
+                android:layout_marginEnd="@dimen/margin_default"
+                app:errorField="@{ValidationField.NAME}"
+                app:errorText="@{errors.errorsMap}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_enter_personal_details">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_name"
+                    style="@style/TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/et_default_height"
+                    android:hint="@string/hint_name"
+                    android:inputType="textPersonName"
+                    android:paddingStart="@dimen/padding_default"
+                    android:paddingTop="@dimen/padding_zero"
+                    android:paddingEnd="@dimen/padding_default"
+                    android:paddingBottom="@dimen/padding_zero"
+                    tools:text="" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tv_calculate_title"
+                style="@style/text_20_hint_poppins_300"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_middle"
+                android:layout_marginTop="@dimen/margin_extra_large"
+                android:layout_marginEnd="@dimen/margin_middle"
+                android:gravity="center"
+                android:text="@string/calculate_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/til_name" />
+
+            <TextView
+                android:id="@+id/tv_weight"
+                style="@style/text_16_dark_grey_poppins_400"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_middle"
+                android:gravity="center"
+                android:text="@string/weight"
+                app:layout_constraintEnd_toStartOf="@+id/tv_height"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/ll_pickers"
+                app:layout_constraintTop_toBottomOf="@id/tv_calculate_title" />
+
+            <TextView
+                android:id="@+id/tv_height"
+                style="@style/text_16_dark_grey_poppins_400"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_middle"
+                android:gravity="center"
+                android:text="@string/height"
+                app:layout_constraintEnd_toStartOf="@+id/tv_gender"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/tv_weight"
+                app:layout_constraintTop_toBottomOf="@id/tv_calculate_title" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                style="@style/text_16_dark_grey_poppins_400"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_middle"
+                android:gravity="center"
+                android:text="@string/gender"
+                app:layout_constraintEnd_toEndOf="@id/ll_pickers"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/tv_height"
+                app:layout_constraintTop_toBottomOf="@id/tv_calculate_title" />
+
+            <LinearLayout
+                android:id="@+id/ll_pickers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_middle"
+                android:layout_marginTop="@dimen/margin_middle"
+                android:layout_marginEnd="@dimen/margin_middle"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_weight">
+
+                <NumberPicker
+                    android:id="@+id/np_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_default"
+                    android:layout_marginEnd="@dimen/margin_default"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:theme="@style/CustomNumberPickerTheme" />
+
+                <NumberPicker
+                    android:id="@+id/np_height"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_default"
+                    android:layout_marginEnd="@dimen/margin_default"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:theme="@style/CustomNumberPickerTheme" />
+
+                <NumberPicker
+                    android:id="@+id/np_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_default"
+                    android:layout_marginEnd="@dimen/margin_default"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:theme="@style/CustomNumberPickerTheme" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_calculate"
+                style="@style/text_16_white_raleway_700"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/et_default_height"
+                android:layout_marginStart="@dimen/margin_middle"
+                android:layout_marginTop="@dimen/margin_middle"
+                android:layout_marginEnd="@dimen/margin_middle"
+                android:layout_marginBottom="@dimen/margin_middle"
+                android:background="@drawable/bg_ripple_main_btn"
+                android:gravity="center"
+                android:text="@string/calculate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_pickers" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

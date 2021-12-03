@@ -4,10 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/bg_main_screen.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/bg_ad_native.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/bg_input_edit_text.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/bg_main_screen_with_corners.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/bg_ad_native.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/bg_add_native.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/bg_bottom_line.xml" value="0.25625" />
         <entry key="app/src/main/res/drawable/bg_change_status.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/bg_input_edit_text.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/bg_main_screen.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/bg_main_screen_with_corners.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/bg_ripple_btn.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/bg_ripple_main_btn.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/bg_splash.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/ic_bmi_logo.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.24279835390946503" />
+        <entry key="app/src/main/res/layout/fragment_result.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/view_loading_progress.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/view_top_navigation.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/xml/file_path.xml" value="0.11803444782168186" />
       </map>
     </option>
   </component>

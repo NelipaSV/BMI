@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="text_60">60sp</dimen>
+    <dimen name="text_28">28sp</dimen>
+    <dimen name="text_20">20sp</dimen>
     <dimen name="text_16">16sp</dimen>
     <dimen name="text_14">14sp</dimen>
     <dimen name="text_12">12sp</dimen>
 
-    <dimen name="corner_4">4dp</dimen>
     <dimen name="stroke_1">1dp</dimen>
     <dimen name="btn_default_height">40dp</dimen>
+    <dimen name="top_bar_size">24dp</dimen>
+    <dimen name="toolbar_size">72dp</dimen>
+    <dimen name="btn_back_height">24dp</dimen>
+
+    <dimen name="et_default_height">56dp</dimen>
+    <dimen name="corner_radius_default">8dp</dimen>
+    <dimen name="bottom_margin_result_description">80dp</dimen>
+
+    <dimen name="ad_image_size">50dp</dimen>
+    <dimen name="ad_elevation">4dp</dimen>
+    <dimen name="ad_corner_radius">4dp</dimen>
 
     <dimen name="margin_smaller">4dp</dimen>
     <dimen name="margin_small">8dp</dimen>

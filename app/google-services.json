@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "753951495381",
+    "project_id": "bmi-calculator-nelipa",
+    "storage_bucket": "bmi-calculator-nelipa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753951495381:android:f63373a85793d57b52be5c",
+        "android_client_info": {
+          "package_name": "io.nelipa.bmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753951495381-sr6tk2u1mcou79elv96s4shvqif5eeam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.nelipa.bmi",
+            "certificate_hash": "83eca8f9fecd7e0d951aa18101aad700bc7ed8de"
+          }
+        },
+        {
+          "client_id": "753951495381-hugsgsa1gkkq58ga9hq52qi39m6u9s86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRQruW6kTRWmmcE2gtxtWOXocsmTvr_-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753951495381-hugsgsa1gkkq58ga9hq52qi39m6u9s86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

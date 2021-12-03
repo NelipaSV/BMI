@@ -1,33 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!--  base fonts  -->
-    <style name="font_sans_serif">
-        <item name="android:fontFamily">sans-serif-medium</item>
+    <style name="font_raleway_400">
+        <item name="android:fontFamily">@font/raleway_400</item>
+    </style>
+    <style name="font_raleway_600">
+        <item name="android:fontFamily">@font/raleway_600</item>
+    </style>
+    <style name="font_raleway_700">
+        <item name="android:fontFamily">@font/raleway_700</item>
+    </style>
+    <style name="font_poppins_300">
+        <item name="android:fontFamily">@font/poppins_300</item>
+    </style>
+    <style name="font_poppins_400">
+        <item name="android:fontFamily">@font/poppins_400</item>
+    </style>
+    <style name="font_poppins_700">
+        <item name="android:fontFamily">@font/poppins_700</item>
+    </style>
+
+    <style name="font_roboto_400">
+        <item name="android:fontFamily">@font/roboto_400</item>
+    </style>
+    <style name="font_roboto_500">
+        <item name="android:fontFamily">@font/roboto_500</item>
+    </style>
+    <style name="font_roboto_700">
+        <item name="android:fontFamily">@font/roboto_700</item>
     </style>
 
     <!--  base font+color  -->
-    <style name="white_font" parent="font_sans_serif">
+    <style name="white_raleway_400" parent="font_raleway_400">
         <item name="android:textColor">@color/white</item>
     </style>
 
-    <style name="white_0_5_font" parent="font_sans_serif">
-        <item name="android:textColor">@color/white_0_5</item>
+    <style name="main_raleway_400" parent="font_raleway_400">
+        <item name="android:textColor">@color/main</item>
+    </style>
+
+    <style name="white_0_3_raleway_600" parent="font_raleway_600">
+        <item name="android:textColor">@color/white_0_3</item>
+    </style>
+
+    <style name="white_raleway_700" parent="font_raleway_700">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="hint_poppins_300" parent="font_poppins_300">
+        <item name="android:textColor">@color/hint</item>
+    </style>
+
+    <style name="dark_grey_poppins_400" parent="font_poppins_400">
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="white_poppins_400" parent="font_poppins_400">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="main_poppins_700" parent="font_poppins_700">
+        <item name="android:textColor">@color/main</item>
+    </style>
+
+    <style name="white_poppins_700" parent="font_poppins_700">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ad_black_roboto_400" parent="font_roboto_400">
+        <item name="android:textColor">@color/ad_text</item>
+    </style>
+    <style name="ad_black_roboto_500" parent="font_roboto_500">
+        <item name="android:textColor">@color/ad_text</item>
+    </style>
+    <style name="ad_black_roboto_700" parent="font_roboto_700">
+        <item name="android:textColor">@color/ad_text</item>
     </style>
 
     <!--  base text styles  -->
-    <style name="text_60_white" parent="white_font">
+    <style name="text_60_white_poppins_400" parent="white_poppins_400">
         <item name="android:textSize">@dimen/text_60</item>
     </style>
-    <style name="text_16_white" parent="white_font">
+    <style name="text_28_main_raleway_400" parent="main_raleway_400">
+        <item name="android:textSize">@dimen/text_28</item>
+    </style>
+    <style name="text_20_white_raleway_400" parent="white_raleway_400">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+    <style name="text_20_hint_poppins_300" parent="hint_poppins_300">
+        <item name="android:textSize">@dimen/text_20</item>
+    </style>
+    <style name="text_16_white_poppins_700" parent="white_poppins_700">
         <item name="android:textSize">@dimen/text_16</item>
     </style>
-    <style name="text_16_white_0_5" parent="white_0_5_font">
+    <style name="text_16_main_poppins_700" parent="main_poppins_700">
         <item name="android:textSize">@dimen/text_16</item>
     </style>
-    <style name="text_14_white" parent="white_font">
+    <style name="text_16_white_raleway_700" parent="white_raleway_700">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_dark_grey_poppins_400" parent="dark_grey_poppins_400">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_white_raleway_400" parent="white_raleway_400">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_white_0_3_raleway_600" parent="white_0_3_raleway_600">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_ad_black_roboto_400" parent="ad_black_roboto_400">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_ad_black_roboto_500" parent="ad_black_roboto_500">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_16_ad_black_roboto_700" parent="ad_black_roboto_700">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+    <style name="text_14_white_raleway_400" parent="font_raleway_400">
         <item name="android:textSize">@dimen/text_14</item>
     </style>
-    <style name="text_12_white" parent="white_font">
-        <item name="android:textSize">@dimen/text_12</item>
+
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/background</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeWidth">@dimen/stroke_1</item>
+        <item name="boxStrokeWidthFocused">@dimen/stroke_1</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_default</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_default</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_default</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_default</item>
+        <item name="boxStrokeColor">@color/selector_text_input_layout_box_color</item>
+        <item name="boxStrokeErrorColor">@color/error</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="errorIconDrawable">@null</item>
+    </style>
+
+    <style name="TextInputEditText">
+        <item name="background">@drawable/bg_input_edit_text</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:fontFamily">@font/poppins_300</item>
+    </style>
+
+    <style name="CustomNumberPickerTheme">
+        <item name="colorControlNormal">@color/main</item>
+        <item name="android:textColorPrimary">@color/main</item>
+        <item name="android:fontFamily">@font/poppins_700</item>
+        <item name="android:textSize">@dimen/text_16</item>
     </style>
 </resources>

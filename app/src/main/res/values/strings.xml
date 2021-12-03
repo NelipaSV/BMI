@@ -1,9 +1,35 @@
 <resources>
-    <string name="app_name">BMI</string>
+    <string name="app_name">Nelipa</string>
+
+    <string name="field_name">Name</string>
+    <string name="error_required">Field {attr} can not be empty.</string>
+
+    <string name="title_details">Add BMI Details</string>
+    <string name="title_result">BMI Details</string>
+
+    <string name="enter_personal_detail">Enter Personal Detail</string>
+    <string name="hint_name">Name</string>
+    <string name="calculate_title">Calculate Your Body Mass Index</string>
+    <string name="weight">Weight</string>
+    <string name="calculate">Calculate</string>
+    <string name="height">Height</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="genders">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+    <string name="underweight">underweight</string>
+    <string name="normal">normal</string>
+    <string name="overweight">overweight</string>
 
     <string name="share">Share</string>
     <string name="rate">Rate</string>
     <string name="body_mass_index">Body mass index</string>
-    <string name="hello_olivia">Hello Olivia, you are normal</string>
+    <string name="hello_name">Hello %1$s, you are %2$s</string>
     <string name="normal_range">Normal BMI range: 18.5 kg/m2 – 25 kg/m2\nPonderal index: 10.64 kg/m3</string>
+
+    <string name="content_description_back">Navigate back</string>
+    <string name="content_description_ad_photo">Ad image</string>
 </resources>
